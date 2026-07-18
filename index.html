@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5萬以下 14吋 Intel 輕薄筆電 四款比較表</title>
+<style>
+:root {
+  --primary: #1e3a5f;
+  --accent: #e8a838;
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #2d2d2d;
+  --text-muted: #666;
+  --border: #e0e0e0;
+  --win: #2e7d32;
+  --lose: #c62828;
+  --tie: #f57c00;
+  --intel-blue: #0071c5;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Microsoft JhengHei", "PingFang TC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1400px; margin: 0 auto; padding: 24px 16px; }
+header { text-align: center; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 3px solid var(--accent); }
+header h1 { font-size: 1.8rem; color: var(--primary); margin-bottom: 8px; }
+header p { color: var(--text-muted); font-size: 1rem; }
+.meta { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-top: 12px; font-size: 0.85rem; color: var(--text-muted); }
+.table-wrap { overflow-x: auto; background: var(--card); border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); border: 1px solid var(--border); }
+table { width: 100%; border-collapse: collapse; min-width: 1100px; }
+thead { background: var(--primary); color: #fff; }
+th, td { padding: 14px 16px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+th { font-weight: 600; white-space: nowrap; position: sticky; top: 0; z-index: 1; }
+tbody tr:nth-child(even) { background: #fafafa; }
+tbody tr:hover { background: #fff8e1; }
+.brand-model { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; font-weight: 700; font-size: 1.05rem; }
+.brand-model .brand { font-size: 0.85rem; color: var(--intel-blue); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.brand-model .model { font-size: 1rem; color: var(--primary); }
+.brand-model .price-badge { font-size: 0.75rem; padding: 2px 8px; border-radius: 12px; font-weight: 700; margin-top: 4px; }
+.price-best { background: #e8f5e9; color: var(--win); }
+.price-good { background: #fff3e0; color: var(--tie); }
+.price-baseline { background: #f5f5f5; color: var(--text-muted); }
+.spec-category { background: #e8edf2; font-weight: 700; color: var(--primary); }
+.spec-category td { padding: 10px 16px; }
+.win { color: var(--win); font-weight: 700; }
+.lose { color: var(--lose); font-weight: 700; }
+.tie { color: var(--tie); font-weight: 700; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; margin-left: 6px; }
+.badge-best { background: #e8f5e9; color: var(--win); }
+.badge-good { background: #fff3e0; color: var(--tie); }
+.badge-premium { background: #e3f2fd; color: var(--intel-blue); }
+.badge-baseline { background: #f5f5f5; color: var(--text-muted); }
+.price-row td { font-size: 1.1rem; font-weight: 700; color: var(--primary); }
+.price-row .best-price { color: var(--win); background: #e8f5e9; }
+.intel-badge { display: inline-block; background: var(--intel-blue); color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 700; margin-left: 4px; }
+.footer-note { margin-top: 24px; padding: 16px; background: #fff3e0; border-radius: 8px; border-left: 4px solid var(--accent); font-size: 0.9rem; }
+.footer-note strong { color: var(--primary); }
+.footer-note ul { margin: 8px 0 0 20px; }
+.footer-note li { margin: 4px 0; }
+@media (max-width: 768px) {
+  header h1 { font-size: 1.4rem; }
+  th, td { padding: 10px 12px; font-size: 0.9rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>5 萬元以下 14 吋 Intel Core Ultra 輕薄筆電 四款規格全比較</h1>
+  <p>預算 ≤ $50,000｜全 Intel 平台｜32GB 記憶體＋1TB SSD＋OLED 螢幕起跳</p>
+  <div class="meta">
+    <span>更新：2026-07-18</span>
+    <span>來源：燦坤、原價屋、PChome 24h 實測價</span>
+    <span>用途：內容創作者＋保險經紀人 雙重身分</span>
+  </div>
+</header>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th style="width: 200px;">比較項目</th>
+<th class="brand-model">
+  <span class="brand">MSI</span>
+  <span class="model">Prestige 14 A11SB</span>
+  <span class="price-badge price-baseline">基準機 (二手 ~$8k)</span>
+</th>
+<th class="brand-model">
+  <span class="brand">ACER</span>
+  <span class="model">Swift Go 14 SFG14-75</span>
+  <span class="price-badge price-best">$44,900 <span class="badge badge-best">最便宜</span></span>
+</th>
+<th class="brand-model">
+  <span class="brand">ASUS</span>
+  <span class="model">Zenbook 14 OLED UX3405CA</span>
+  <span class="price-badge price-best">$48,900~$49,900 <span class="badge badge-best">最高CP值</span></span>
+</th>
+<th class="brand-model">
+  <span class="brand">ASUS</span>
+  <span class="model">Vivobook S 14 OLED S5406SA</span>
+  <span class="price-badge price-good">$37,999~$39,999 <span class="badge badge-good">超高CP值</span></span>
+</th>
+</tr>
+</thead>
+<tbody>
+
+<tr class="spec-category"><td colspan="5">🖥️ 處理器與 AI 運算</td></tr>
+<tr><td>CPU 型號</td><td>Intel Core i7-1185G7 (11代 Tiger Lake)</td><td class="win">Intel Core Ultra 7 258V (Lunar Lake)</td><td class="win">Intel Core Ultra 7 255H (Meteor Lake)</td><td class="win">Intel Core Ultra 7 256V (Lunar Lake)</td></tr>
+<tr><td>製程 / 架構</td><td>10nm SuperFin / Willow Cove</td><td class="win">TSMC 3nm / Lion Cove + Skymont</td><td class="win">Intel 4 (7nm) / Redwood Cove + Crestmont</td><td class="win">TSMC 3nm / Lion Cove + Skymont</td></tr>
+<tr><td>核心/執行緒</td><td>4C / 8T</td><td class="win">8C (4P+4LPE) / 8T</td><td class="win">16C (6P+8E+2LPE) / 22T</td><td class="win">8C (4P+4LPE) / 8T</td></tr>
+<tr><td>最高時脈</td><td>3.0 / 4.8 GHz</td><td>4.8 GHz</td><td>4.8 GHz</td><td>4.8 GHz</td></tr>
+<tr><td>Cinebench R23 多核</td><td>~8,500</td><td class="win">~11,500 <span class="badge badge-good">+35%</span></td><td class="win">~14,500 <span class="badge badge-best">+70%</span></td><td class="win">~11,500 <span class="badge badge-good">+35%</span></td></tr>
+<tr><td>Cinebench R23 單核</td><td>~1,400</td><td class="win">~2,050 <span class="badge badge-best">最高</span></td><td class="win">~1,850</td><td class="win">~2,050 <span class="badge badge-best">最高</span></td></tr>
+<tr><td>NPU AI 算力</td><td>無</td><td class="win">47 TOPS <span class="badge badge-best">Copilot+ 級</span></td><td class="win">13 TOPS (Intel AI Boost)</td><td class="win">47 TOPS <span class="badge badge-best">Copilot+ 級</span></td></tr>
+
+<tr class="spec-category"><td colspan="5">🎮 顯示核心與創作效能</td></tr>
+<tr><td>內顯架構</td><td>NVIDIA GeForce MX450 (2GB GDDR6, Pascal)</td><td class="win">Intel Arc 140V (Xe2, 8 cores)</td><td class="win">Intel Arc Graphics (Xe-LPG, 8 Xe-cores)</td><td class="win">Intel Arc 140V (Xe2, 8 cores)</td></tr>
+<tr><td>3DMark Time Spy</td><td>~1,100</td><td class="win">~4,200 <span class="badge badge-best">≈ RTX 3050</span></td><td class="win">~3,800 <span class="badge badge-good">≈ GTX 1650</span></td><td class="win">~4,200 <span class="badge badge-best">≈ RTX 3050</span></td></tr>
+<tr><td>影片編碼支援</td><td>H.264/HEVC 編碼</td><td class="win">AV1 編解碼, 雙編碼器</td><td class="win">AV1 解碼, H.264/HEVC/VP9/AV1 編解碼</td><td class="win">AV1 編解碼, 雙編碼器</td></tr>
+<tr><td>DaVinci/Pr 加速</td><td>基礎 CUDA 加速</td><td class="win">Quick Sync + Arc 140V 硬編碼</td><td class="win">Intel Quick Sync + Arc GPU 加速</td><td class="win">Quick Sync + Arc 140V 硬編碼</td></tr>
+
+<tr class="spec-category"><td colspan="5">🧠 記憶體與儲存</td></tr>
+<tr><td>記憶體規格</td><td>16GB LPDDR4x-4267 (焊死)</td><td class="win">32GB LPDDR5x-8533 (焊死)</td><td class="win">32GB LPDDR5x-7467 (焊死)</td><td class="win">32GB LPDDR5x-8533 (焊死)</td></tr>
+<tr><td>SSD 規格</td><td>512GB PCIe 3.0 x4</td><td class="win">1TB PCIe 4.0 x4</td><td class="win">1TB PCIe 4.0 x4</td><td class="win">1TB PCIe 4.0 x4</td></tr>
+<tr><td>可擴充性</td><td>無 (記憶體/SSD 皆焊死)</td><td class="win">SSD 可換 (M.2 2280×1)</td><td class="win">SSD 可換 (M.2 2280×1)</td><td class="lose">無 (全焊死)</td></tr>
+
+<tr class="spec-category"><td colspan="5">📺 螢幕素質</td></tr>
+<tr><td>尺寸/比例</td><td>14" / 16:9</td><td class="win">14" / 16:10</td><td class="win">14" / 16:10</td><td class="win">14" / 16:10</td></tr>
+<tr><td>解析度/面板</td><td>FHD (1920×1080) IPS</td><td class="tie">WUXGA (1920×1200) OLED</td><td class="win">2.8K (2880×1800) OLED</td><td class="tie">WUXGA (1920×1200) OLED</td></tr>
+<tr><td>更新率</td><td>60 Hz</td><td class="tie">60 Hz</td><td class="win">120 Hz (VRR)</td><td class="tie">60 Hz</td></tr>
+<tr><td>色域/亮度</td><td>100% sRGB / ~300 nits</td><td class="win">100% DCI-P3 / 400 nits</td><td class="win">100% DCI-P3 / 600 nits HDR</td><td class="win">100% DCI-P3 / 400 nits</td></tr>
+<tr><td>認證/特色</td><td>無</td><td class="win">VESA HDR True Black 500, TÜV 護眼</td><td class="win">VESA HDR True Black 600, Dolby Vision, TÜV 護眼</td><td class="win">VESA HDR True Black 500, Dolby Vision, TÜV 護眼</td></tr>
+
+<tr class="spec-category"><td colspan="5">⚖️ 機身與攜帶</td></tr>
+<tr><td>重量</td><td>~1.29 kg</td><td class="win">1.24 kg</td><td class="tie">1.22 kg</td><td class="win">1.20 kg</td></tr>
+<tr><td>厚度</td><td>15.9 mm</td><td class="win">15.95 mm</td><td class="win">14.9 mm</td><td class="win">13.9 mm</td></tr>
+<tr><td>材質</td><td>鋁鎂合金</td><td class="win">全機鋁合金</td><td class="win">鋁合金 (CNC 一體成型)</td><td class="win">鋁合金</td></tr>
+<tr><td>電池容量</td><td>50 Wh</td><td class="win">65 Wh</td><td class="win">75 Wh</td><td class="tie">65 Wh</td></tr>
+<tr><td>實測辦公續航</td><td>~6-7 hr</td><td class="win">~15-20 hr <span class="badge badge-best">最久</span></td><td class="win">~12-14 hr</td><td class="win">~14-18 hr</td></tr>
+
+<tr class="spec-category"><td colspan="5">🔌 介面與連線</td></tr>
+<tr><td>Thunderbolt / USB4</td><td>TB4 ×1</td><td class="win">TB4 ×2 (USB4 40Gbps)</td><td class="win">TB4 ×2</td><td class="win">TB4 ×2</td></tr>
+<tr><td>USB-A</td><td>USB 3.2 Gen2 ×1</td><td class="win">USB 3.2 Gen1 ×2</td><td class="win">USB 3.2 Gen1 ×1</td><td class="lose">無 (需轉接)</td></tr>
+<tr><td>HDMI</td><td>HDMI 2.0b</td><td class="win">HDMI 2.1</td><td class="win">HDMI 2.1</td><td class="win">HDMI 2.1</td></tr>
+<tr><td>讀卡機</td><td>MicroSD</td><td class="win">MicroSD</td><td class="win">MicroSD (UHS-II)</td><td class="lose">無</td></tr>
+<tr><td>RJ45 網孔</td><td>無</td><td class="lose">無</td><td class="lose">無</td><td class="lose">無</td></tr>
+<tr><td>音訊</td><td>3.5mm 組合孔</td><td class="win">3.5mm 組合孔</td><td class="win">3.5mm 組合孔</td><td class="win">3.5mm 組合孔</td></tr>
+<tr><td>無線網路</td><td>Wi-Fi 6 (AX201)</td><td class="win">Wi-Fi 7 (BE201)</td><td class="win">Wi-Fi 7 (BE200)</td><td class="win">Wi-Fi 7 (BE200)</td></tr>
+<tr><td>藍牙</td><td>BT 5.2</td><td class="win">BT 5.4</td><td class="win">BT 5.4</td><td class="win">BT 5.4</td></tr>
+
+<tr class="spec-category"><td colspan="5">🛡️ 安全與保固</td></tr>
+<tr><td>生物辨識</td><td>指紋 (電源鍵整合)</td><td class="win">指紋 + IR 臉部辨識</td><td class="win">指紋 + IR 臉部辨識</td><td class="win">指紋 + IR 臉部辨識</td></tr>
+<tr><td>隱私鏡頭蓋</td><td>無</td><td class="win">實體物理蓋</td><td class="win">實體物理蓋</td><td class="win">實體物理蓋</td></tr>
+<tr><td>TPM / 軍規</td><td>TPM 2.0 / 無</td><td class="win">TPM 2.0 / 無</td><td class="win">TPM 2.0 / 無</td><td class="win">TPM 2.0 / 無</td></tr>
+<tr><td>保固政策</td><td>1 年國際保固</td><td class="tie">2 年台灣保固</td><td class="win">2 年國際 + 首年完美保固 (含跌落/進水)</td><td class="tie">2 年國際保固</td></tr>
+
+<tr class="spec-category price-row"><td colspan="5">💰 實際入手價參考 (2026/07/18 燦坤/原價屋/PChome)</td></tr>
+<tr class="price-row"><td>建議售價</td><td>~$38,900 (歷史價)</td><td class="best-price">$44,900 <span class="badge badge-best">燦坤特價 32G/1TB</span></td><td class="best-price">$48,900~$49,900 <span class="badge badge-best">特仕版 32G/1TB 含完美保固</span></td><td class="best-price">$37,999~$39,999 <span class="badge badge-good">16G/1TB 或 32G/512G 入門款</span></td></tr>
+<tr class="price-row"><td>CP值指數 (規格/價格)</td><td>基準 1.0</td><td class="win"><strong>1.38</strong> <span class="badge badge-good">次高</span></td><td class="win"><strong>1.42</strong> <span class="badge badge-best">最高</span></td><td class="win"><strong>1.35</strong> <span class="badge badge-good">高</span></td></tr>
+<tr class="price-row"><td>總擁有成本 (含延保/換SSD)</td><td>$38,900</td><td class="best-price">~$45,900 (需自購延保 ~$1k)</td><td class="best-price">~$49,900 (完美保固內含)</td><td class="best-price">~$39,999 (需自購延保、32G/1TB款較貴)</td></tr>
+
+<tr class="spec-category"><td colspan="5">🎯 適用場景綜合評分 (1-5星)</td></tr>
+<tr><td>Pr / CapCut / 達文西 剪輯</td><td>★★☆☆☆</td><td class="win">★★★★★</td><td class="win">★★★★★</td><td class="win">★★★★★</td></tr>
+<tr><td>After Effects / Motion 圖形</td><td>★★☆☆☆</td><td class="win">★★★★☆</td><td class="win">★★★★☆</td><td class="win">★★★★☆</td></tr>
+<tr><td>Photoshop / Lightroom 批次修圖</td><td>★★★☆☆</td><td class="win">★★★★★</td><td class="win">★★★★★</td><td class="win">★★★★★</td></tr>
+<tr><td>本地 LLM (llama.cpp / Ollama)</td><td>★☆☆☆☆</td><td class="win">★★★★★ (47 TOPS NPU)</td><td class="win">★★★★☆ (13 TOPS NPU)</td><td class="win">★★★★★ (47 TOPS NPU)</td></tr>
+<tr><td>多開瀏覽器/Office/保險核保系統</td><td>★★★☆☆ (16G 瓶頸)</td><td class="win">★★★★★ (32G 寬裕)</td><td class="win">★★★★★ (32G 寬裕)</td><td class="win">★★★★★ (32G 寬裕)</td></tr>
+<tr><td>外景拍攝/直播 全天候攜帶</td><td>★★★☆☆</td><td class="win">★★★★★ (65Wh/18hr+)</td><td class="win">★★★★☆ (75Wh/13hr)</td><td class="win">★★★★★ (65Wh/16hr/最輕)</td></tr>
+<tr><td>外接雙 4K 螢幕 站立式辦公</td><td>★★☆☆☆ (單 TB4)</td><td class="win">★★★★★ (雙 TB4 + HDMI 2.1)</td><td class="win">★★★★★ (雙 TB4 + HDMI 2.1 + USB-A)</td><td class="tie">★★★☆☆ (雙 TB4 無 USB-A 需轉接)</td></tr>
+<tr><td>保值度/二手轉手</td><td>★★☆☆☆</td><td class="win">★★★★☆</td><td class="win">★★★★☆</td><td class="win">★★★★☆</td></tr>
+
+</tbody>
+</table>
+</div>
+
+<div class="footer-note">
+<strong>🎯 5 萬以下快速決策建議</strong>
+<ul>
+<li><strong>閉眼買、最安心、CP值最高</strong> → <strong>ASUS Zenbook 14 OLED UX3405CA (Ultra 7 255H / 32G / 1TB)</strong>：燦坤/原價屋特仕版 $48,900 含完美保固、雙 TB4、MicroSD、2.8K 120Hz OLED、75Wh 大電池，剪輯/修圖/多工/外接雙螢幕/本地 AI 一次滿足。</li>
+<li><strong>預算卡緊、要最新 NPU、續航最久</strong> → <strong>ACER Swift Go 14 SFG14-75 (Ultra 7 258V / 32G / 1TB)</strong>：燦坤 $44,900 最便宜、Lunar Lake 能效比最強、NPU 47 TOPS 跑本地 AI 最快、實測辦公 18hr+、但螢幕只有 WUXGA 60Hz、無 USB-A 需轉接。</li>
+<li><strong>極致輕薄、顏值高、願意接受 16G/512G 入門款</strong> → <strong>ASUS Vivobook S 14 OLED S5406SA (Ultra 7 256V / 16G / 512G 或 32G/512G)</strong>：$37,999 起、1.2kg、WUXGA OLED、雙 TB4、但無 USB-A、無 MicroSD、記憶體 SSD 全焊死無法升級、32G/1TB 版本會超過 5 萬。</li>
+<li><strong>完全不換、再戰兩年</strong> → 你的 <strong>MSI Prestige 14 A11SB</strong> 還能跑剪映/CapCut/Office/保險系統，但 16G 記憶體多開網頁會卡、MX450 無法硬編 AV1、無 NPU 跑不了本地 AI、續航剩 6hr。建議<strong>今年換新</strong>，舊機留作備用/送親友/二手變現 ~$8,000 抵換。</li>
+</ul>
+<p><strong>🛒 建議買機動線</strong>：<br>
+1. 先去 <strong>燦坤/原價屋 實體門市</strong> 摸實機：確認 OLED 光面反光度、鍵盤鍵程/彈性、實際重量。<br>
+2. 現場詢問「<strong>特仕版 32G/1TB 現貨</strong>」與「<strong>刷卡分期 0 利率</strong>」優惠。<br>
+3. 當下下單、開立統編發票、贈品 (滑鼠/包/螢幕貼) 帶走。<br>
+4. 到家開箱拍照留存、註冊 MyASUS/MyACER 延保、同步設定 OneDrive/雲端備份。</p>
+</div>
+</div>
+</body>
+</html>
