@@ -61,9 +61,8 @@ tbody tr:hover { background: #fff8e1; }
 .footer-note .key-takeaway { background: #e3f2fd; padding: 12px; border-radius: 8px; margin-top: 12px; border-left: 4px solid var(--intel-blue); }
 .back-link { display: inline-block; margin-bottom: 16px; color: var(--intel-blue); text-decoration: none; font-size: 0.9rem; }
 .back-link:hover { text-decoration: underline; }
-.price-ladder { display: flex; justify-content: space-between; align-items: center; margin: 16px 0; background: #fff; border-radius: 8px; padding: 12px 16px; border: 1px solid var(--border); flex-wrap: wrap; }
-.price-ladder .step { display: flex; align-items: center; gap: 6px; }
-.price-ladder .arrow { color: var(--accent); font-weight: 700; margin: 0 4px; }
+.brand-divider { background: #f0f4ff; font-weight: 700; color: var(--primary); font-size: 0.85rem; letter-spacing: 1px; }
+.brand-divider td { padding: 6px 10px; }
 @media (max-width: 768px) {
   header h1 { font-size: 1.3rem; }
   th, td { padding: 8px; font-size: 0.78rem; }
@@ -76,29 +75,13 @@ tbody tr:hover { background: #fff8e1; }
 <header>
   <h1>$30K ~ $45K 價格光譜 14 吋 Intel 輕薄筆電 <span>七款完整比較</span></h1>
   <p class="subtitle">降階版 vs 高階版同台 — 每多花 $5,000 能升級什麼？</p>
-  <p>全 Intel 平台｜同產品線的降階/高階對比｜找出你的甜蜜點</p>
+  <p>全 Intel 平台｜品牌分組｜價格由高→低排列</p>
   <div class="meta">
     <span>更新：2026-07-20</span>
     <span>來源：燦坤、原價屋、PChome 24h</span>
     <span>延伸自：主比較表（$45K-$50K 高階款）</span>
   </div>
 </header>
-
-<div class="price-ladder">
-  <span class="step"><strong>MSI 二手</strong> ~$8,000</span>
-  <span class="arrow">&#8594;</span>
-  <span class="step"><strong>ACER 542S</strong> $30,900</span>
-  <span class="arrow">&#8594;</span>
-  <span class="step"><strong>ASUS Vivo U5</strong> $32,999</span>
-  <span class="arrow">&#8594;</span>
-  <span class="step"><strong>ACER 50CQ</strong> $33,900</span>
-  <span class="arrow">&#8594;</span>
-  <span class="step"><strong>ASUS Vivo U7</strong> $37,999</span>
-  <span class="arrow">&#8594;</span>
-  <span class="step"><strong>ASUS Zen U5</strong> $39,999</span>
-  <span class="arrow">&#8594;</span>
-  <span class="step"><strong>ACER Swift U7</strong> $44,900</span>
-</div>
 
 <div class="table-wrap">
 <table>
@@ -111,140 +94,139 @@ tbody tr:hover { background: #fff8e1; }
   <span class="price-badge price-baseline">二手 ~$8,000</span>
 </th>
 <th class="brand-model">
-  <span class="brand">ACER <span class="badge badge-best">AI 入門</span></span>
-  <span class="model">Swift Go 14<br>SFG14-75-542S</span>
-  <span class="price-badge price-best">$30,900</span>
+  <span class="brand">ACER <span class="badge badge-premium">最高階</span></span>
+  <span class="model">Swift Go 14 SFG14-75<br>U7-258V</span>
+  <span class="price-badge price-best">$44,900</span>
 </th>
 <th class="brand-model">
-  <span class="brand">ASUS <span class="badge badge-good">OLED 入門</span></span>
-  <span class="model">Vivobook S14 OLED<br>S5406SA U5-226V</span>
-  <span class="price-badge price-best">$32,999</span>
-</th>
-<th class="brand-model">
-  <span class="brand">ACER <span class="badge badge-best">AI CP 王</span></span>
-  <span class="model">Swift Go 14<br>SFG14-75-50CQ</span>
+  <span class="brand">ACER <span class="badge badge-best">降階王者</span></span>
+  <span class="model">Swift Go 14 SFG14-75-50CQ<br>U5-228V</span>
   <span class="price-badge price-best">$33,900</span>
 </th>
 <th class="brand-model">
-  <span class="brand">ASUS <span class="badge badge-premium">高階 Lunar Lake</span></span>
-  <span class="model">Vivobook S14 OLED<br>S5406SA U7-256V</span>
-  <span class="price-badge price-good">$37,999~$39,999</span>
+  <span class="brand">ACER <span class="badge badge-best">AI 入門</span></span>
+  <span class="model">Swift Go 14 SFG14-75-542S<br>U5-226V</span>
+  <span class="price-badge price-best">$30,900</span>
 </th>
 <th class="brand-model">
   <span class="brand">ASUS</span>
-  <span class="model">Zenbook 14 OLED<br>UX3405CA U5-225H</span>
+  <span class="model">Zenbook 14 OLED UX3405CA<br>U5-225H</span>
   <span class="price-badge price-good">$39,999</span>
 </th>
 <th class="brand-model">
-  <span class="brand">ACER <span class="badge badge-premium">高階 Lunar Lake</span></span>
-  <span class="model">Swift Go 14<br>SFG14-75 U7-258V</span>
-  <span class="price-badge price-best">$44,900</span>
+  <span class="brand">ASUS <span class="badge badge-premium">高階 Lunar Lake</span></span>
+  <span class="model">Vivobook S14 OLED S5406SA<br>U7-256V</span>
+  <span class="price-badge price-good">$37,999~$39,999</span>
+</th>
+<th class="brand-model">
+  <span class="brand">ASUS <span class="badge badge-good">OLED 入門</span></span>
+  <span class="model">Vivobook S14 OLED S5406SA<br>U5-226V</span>
+  <span class="price-badge price-best">$32,999</span>
 </th>
 </tr>
 </thead>
 <tbody>
 
-<tr style="background:#f0f4ff;"><td><strong>完整型號</strong></td><td><strong>Prestige 14 A11SB</strong></td><td><strong>SFG14-75-542S</strong></td><td><strong>S5406SA-0068B226V</strong></td><td><strong>SFG14-75-50CQ</strong></td><td><strong>S5406SA (U7 版)</strong></td><td><strong>UX3405CA-0122B225H</strong></td><td><strong>SFG14-75 (U7 版)</strong></td></tr>
+<tr style="background:#f0f4ff;"><td><strong>完整型號</strong></td><td><strong>Prestige 14 A11SB</strong></td><td><strong>SFG14-75 (U7 版)</strong></td><td><strong>SFG14-75-50CQ</strong></td><td><strong>SFG14-75-542S</strong></td><td><strong>UX3405CA-0122B225H</strong></td><td><strong>S5406SA (U7 版)</strong></td><td><strong>S5406SA-0068B226V</strong></td></tr>
 
-<tr class="spec-category"><td colspan="8">處理器與 AI 運算 — Lunar Lake (V/U5) vs Meteor Lake (H/U5) 的核心差異</td></tr>
-<tr><td>CPU 型號</td><td>i7-1185G7 (11代)</td><td class="win">Core Ultra 5 226V</td><td class="win">Core Ultra 5 226V</td><td class="win">Core Ultra 5 228V</td><td class="win">Core Ultra 7 256V</td><td>Core Ultra 5 225H</td><td class="win">Core Ultra 7 258V</td></tr>
-<tr><td>架構 / 製程</td><td>Tiger Lake / 10nm</td><td class="win">Lunar Lake / TSMC 3nm</td><td class="win">Lunar Lake / TSMC 3nm</td><td class="win">Lunar Lake / TSMC 3nm</td><td class="win">Lunar Lake / TSMC 3nm</td><td>Meteor Lake / Intel 4</td><td class="win">Lunar Lake / TSMC 3nm</td></tr>
-<tr><td>核心/執行緒</td><td>4C / 8T</td><td class="win">8C (4P+4LPE) / 8T</td><td class="win">8C (4P+4LPE) / 8T</td><td class="win">8C (4P+4LPE) / 8T</td><td class="win">8C (4P+4LPE) / 8T</td><td class="win">14C (4P+8E+2LPE) / 14T</td><td class="win">8C (4P+4LPE) / 8T</td></tr>
-<tr><td>最高時脈</td><td>4.8 GHz</td><td>4.5 GHz</td><td>4.5 GHz</td><td>4.5 GHz</td><td>4.8 GHz</td><td class="win">4.9 GHz</td><td class="win">4.8 GHz</td></tr>
-<tr><td>Cinebench R23 多核</td><td>~5,000</td><td class="win">~9,500</td><td class="win">~9,500</td><td class="win">~10,000</td><td class="win">~11,500</td><td class="win">~11,500</td><td class="win">~11,500</td></tr>
-<tr><td>Cinebench R23 單核</td><td>~1,450</td><td class="win">~2,000</td><td class="win">~2,000</td><td class="win">~2,000</td><td class="win">~2,050</td><td class="win">~1,750</td><td class="win">~2,050</td></tr>
-<tr><td>NPU AI 算力</td><td class="lose">無</td><td class="win">~40 TOPS <span class="badge-best">Copilot+</span></td><td class="win">~40 TOPS <span class="badge-best">Copilot+</span></td><td class="win">~40 TOPS <span class="badge-best">Copilot+</span></td><td class="win">47 TOPS <span class="badge-best">Copilot+</span></td><td class="lose">~11 TOPS</td><td class="win">47 TOPS <span class="badge-best">Copilot+</span></td></tr>
+<tr class="spec-category"><td colspan="8">處理器與 AI 運算</td></tr>
+<tr><td>CPU 型號</td><td>i7-1185G7 (11代)</td><td class="win">Core Ultra 7 258V</td><td class="win">Core Ultra 5 228V</td><td class="win">Core Ultra 5 226V</td><td>Core Ultra 5 225H</td><td class="win">Core Ultra 7 256V</td><td class="win">Core Ultra 5 226V</td></tr>
+<tr><td>架構 / 製程</td><td>Tiger Lake / 10nm</td><td class="win">Lunar Lake / 3nm</td><td class="win">Lunar Lake / 3nm</td><td class="win">Lunar Lake / 3nm</td><td>Meteor Lake / Intel 4</td><td class="win">Lunar Lake / 3nm</td><td class="win">Lunar Lake / 3nm</td></tr>
+<tr><td>核心/執行緒</td><td>4C / 8T</td><td class="win">8C / 8T</td><td class="win">8C / 8T</td><td class="win">8C / 8T</td><td class="win">14C / 14T</td><td class="win">8C / 8T</td><td class="win">8C / 8T</td></tr>
+<tr><td>Cinebench R23 多核</td><td>~5,000</td><td class="win">~11,500</td><td class="win">~10,000</td><td class="win">~9,500</td><td class="win">~11,500</td><td class="win">~11,500</td><td class="win">~9,500</td></tr>
+<tr><td>Cinebench R23 單核</td><td>~1,450</td><td class="win">~2,050</td><td class="win">~2,000</td><td class="win">~2,000</td><td class="win">~1,750</td><td class="win">~2,050</td><td class="win">~2,000</td></tr>
+<tr><td>NPU AI 算力</td><td class="lose">無</td><td class="win">47 TOPS <span class="badge-best">Copilot+</span></td><td class="win">~40 TOPS <span class="badge-best">Copilot+</span></td><td class="win">~40 TOPS <span class="badge-best">Copilot+</span></td><td class="lose">~11 TOPS</td><td class="win">47 TOPS <span class="badge-best">Copilot+</span></td><td class="win">~40 TOPS <span class="badge-best">Copilot+</span></td></tr>
 
 <tr class="spec-category"><td colspan="8">顯示核心與創作效能</td></tr>
-<tr><td>內顯架構</td><td>MX450 2GB</td><td class="win">Arc 130V (Xe2, 7c)</td><td class="win">Arc 130V (Xe2, 7c)</td><td class="win">Arc 130V (Xe2, 7c)</td><td class="win">Arc 140V (Xe2, 8c)</td><td class="win">Arc Xe-LPG (8c)</td><td class="win">Arc 140V (Xe2, 8c)</td></tr>
-<tr><td>3DMark Time Spy</td><td>~2,000</td><td class="win">~3,800</td><td class="win">~3,800</td><td class="win">~3,800</td><td class="win">~4,200</td><td class="win">~3,500</td><td class="win">~4,200</td></tr>
-<tr><td>影片編碼</td><td>H.264/HEVC</td><td class="win">AV1 編解碼</td><td class="win">AV1 編解碼</td><td class="win">AV1 編解碼</td><td class="win">AV1 編解碼</td><td class="win">AV1 解碼</td><td class="win">AV1 編解碼</td></tr>
+<tr><td>內顯架構</td><td>MX450 2GB</td><td class="win">Arc 140V (Xe2, 8c)</td><td class="win">Arc 130V (Xe2, 7c)</td><td class="win">Arc 130V (Xe2, 7c)</td><td class="win">Arc Xe-LPG (8c)</td><td class="win">Arc 140V (Xe2, 8c)</td><td class="win">Arc 130V (Xe2, 7c)</td></tr>
+<tr><td>3DMark Time Spy</td><td>~2,000</td><td class="win">~4,200 <span class="badge-best">=RTX 3050</span></td><td class="win">~3,800</td><td class="win">~3,800</td><td class="win">~3,500</td><td class="win">~4,200 <span class="badge-best">=RTX 3050</span></td><td class="win">~3,800</td></tr>
+<tr><td>影片編碼</td><td>H.264/HEVC</td><td class="win">AV1 編解碼</td><td class="win">AV1 編解碼</td><td class="win">AV1 編解碼</td><td class="win">AV1 解碼</td><td class="win">AV1 編解碼</td><td class="win">AV1 編解碼</td></tr>
 
-<tr class="spec-category"><td colspan="8">記憶體與儲存 — 最大的取捨：$5,000 換 16GB+512GB</td></tr>
-<tr><td>記憶體</td><td>16GB LPDDR4x</td><td class="tie">16GB LPDDR5x <span class="badge-note">砍半</span></td><td class="tie">16GB LPDDR5x <span class="badge-note">砍半</span></td><td class="win">32GB LPDDR5x <span class="badge-best">無降</span></td><td class="win">32GB LPDDR5x <span class="badge-best">無降</span></td><td class="tie">16GB LPDDR5x <span class="badge-note">砍半</span></td><td class="win">32GB LPDDR5x <span class="badge-best">無降</span></td></tr>
-<tr><td>SSD</td><td>512GB PCIe 3.0</td><td class="tie">512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td class="tie">512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td class="tie">512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td class="win">1TB PCIe 4.0 <span class="badge-best">無降</span></td><td class="tie">512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td class="win">1TB PCIe 4.0 <span class="badge-best">無降</span></td></tr>
-<tr><td>可擴充</td><td>無</td><td class="win">SSD 可換</td><td class="lose">全焊死</td><td class="win">SSD 可換</td><td class="lose">全焊死</td><td class="win">SSD 可換</td><td class="win">SSD 可換</td></tr>
+<tr class="spec-category"><td colspan="8">記憶體與儲存</td></tr>
+<tr><td>記憶體</td><td>16GB LPDDR4x</td><td class="win">32GB LPDDR5x <span class="badge-best">無降</span></td><td class="win">32GB LPDDR5x <span class="badge-best">無降</span></td><td>16GB LPDDR5x <span class="badge-note">砍半</span></td><td>16GB LPDDR5x <span class="badge-note">砍半</span></td><td class="win">32GB LPDDR5x <span class="badge-best">無降</span></td><td>16GB LPDDR5x <span class="badge-note">砍半</span></td></tr>
+<tr><td>SSD</td><td>512GB PCIe 3.0</td><td class="win">1TB PCIe 4.0 <span class="badge-best">無降</span></td><td>512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td>512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td>512GB PCIe 4.0 <span class="badge-note">砍半</span></td><td class="win">1TB PCIe 4.0 <span class="badge-best">無降</span></td><td>512GB PCIe 4.0 <span class="badge-note">砍半</span></td></tr>
+<tr><td>可擴充</td><td>無</td><td class="win">SSD 可換</td><td class="win">SSD 可換</td><td class="win">SSD 可換</td><td class="win">SSD 可換</td><td class="lose">全焊死</td><td class="lose">全焊死</td></tr>
 
-<tr class="spec-category"><td colspan="8">螢幕素質 — 同價位最大分野：OLED vs IPS</td></tr>
-<tr><td>面板</td><td>FHD IPS 60Hz</td><td>WUXGA IPS 120Hz <span class="badge-good">霧面</span></td><td class="win">WUXGA OLED 60Hz <span class="badge-best">OLED</span></td><td>WUXGA IPS 120Hz <span class="badge-good">霧面</span></td><td class="win">WUXGA OLED 60Hz <span class="badge-best">OLED</span></td><td class="win">2.8K OLED 120Hz <span class="badge-best">最頂</span></td><td class="win">WUXGA OLED 60Hz <span class="badge-best">OLED</span></td></tr>
-<tr><td>亮度/色域</td><td>300 nits / sRGB</td><td>~300 nits / sRGB</td><td class="win">400 nits / DCI-P3</td><td>~300 nits / sRGB</td><td class="win">400 nits / DCI-P3</td><td class="win">600 nits / DCI-P3</td><td class="win">400 nits / DCI-P3</td></tr>
-<tr><td>認證特色</td><td>無</td><td>無</td><td class="win">VESA HDR TB500<br>Dolby Vision</td><td>無</td><td class="win">VESA HDR TB500<br>Dolby Vision</td><td class="win">VESA HDR TB600<br>Dolby Vision</td><td class="win">VESA HDR TB500</td></tr>
-<tr><td>降階幅度</td><td>—</td><td class="tie">OLED→IPS<br>補 120Hz 流暢</td><td class="win">保 OLED</td><td class="tie">OLED→IPS<br>補 120Hz 流暢</td><td class="win">保 OLED</td><td class="win">保 2.8K OLED<br>零降階</td><td class="win">保 OLED</td></tr>
+<tr class="spec-category"><td colspan="8">螢幕素質</td></tr>
+<tr><td>面板</td><td>FHD IPS 60Hz</td><td class="win">WUXGA OLED 60Hz <span class="badge-best">OLED</span></td><td>WUXGA IPS 120Hz <span class="badge-good">霧面</span></td><td>WUXGA IPS 120Hz <span class="badge-good">霧面</span></td><td class="win">2.8K OLED 120Hz <span class="badge-best">最頂</span></td><td class="win">WUXGA OLED 60Hz <span class="badge-best">OLED</span></td><td class="win">WUXGA OLED 60Hz <span class="badge-best">OLED</span></td></tr>
+<tr><td>亮度/色域</td><td>300 nits / sRGB</td><td class="win">400 nits / DCI-P3</td><td>~300 nits / sRGB</td><td>~300 nits / sRGB</td><td class="win">600 nits / DCI-P3</td><td class="win">400 nits / DCI-P3</td><td class="win">400 nits / DCI-P3</td></tr>
+<tr><td>認證特色</td><td>無</td><td class="win">VESA HDR TB500</td><td>無</td><td>無</td><td class="win">VESA HDR TB600<br>Dolby Vision</td><td class="win">VESA HDR TB500<br>Dolby Vision</td><td class="win">VESA HDR TB500<br>Dolby Vision</td></tr>
 
-<tr class="spec-category"><td colspan="8">散熱設計 — 這級距的驚喜：模具沒縮水</td></tr>
-<tr><td>風扇</td><td class="lose">1</td><td class="win">2</td><td class="win">2 (IceCool)</td><td class="win">2</td><td class="win">2 (IceCool)</td><td class="lose">1</td><td class="win">2</td></tr>
-<tr><td>CPU 穩定功耗</td><td>~19 W</td><td class="win">~30 W</td><td class="win">~35 W</td><td class="win">~30 W</td><td class="win">~45 W</td><td>~25 W</td><td class="win">~35 W</td></tr>
-<tr><td>滿載溫度</td><td class="lose">~85°C</td><td class="win">~72-78°C</td><td class="win">~80-85°C</td><td class="win">~72-78°C</td><td class="win">~80-85°C</td><td class="tie">~90-95°C</td><td class="win">~75-80°C</td></tr>
-<tr><td>風扇噪音</td><td class="lose">~75 dBA</td><td class="win">~42-48 dBA</td><td class="win">~45-50 dBA</td><td class="win">~42-48 dBA</td><td class="win">~48-55 dBA</td><td class="tie">~48-52 dBA</td><td class="win">~45-52 dBA</td></tr>
-<tr><td>散熱總評</td><td class="lose">老化降頻</td><td class="win">雙風扇+Lunar Lake=涼爽</td><td class="win">IceCool 穩定</td><td class="win">雙風扇+Lunar Lake=涼爽</td><td class="win">IceCool 45W 不掉頻</td><td class="tie">單風扇偏熱<br>但比高階款好</td><td class="win">雙風扇+Lunar Lake=涼爽</td></tr>
+<tr class="spec-category"><td colspan="8">散熱設計</td></tr>
+<tr><td>風扇</td><td class="lose">1</td><td class="win">2</td><td class="win">2</td><td class="win">2</td><td class="lose">1</td><td class="win">2 (IceCool)</td><td class="win">2 (IceCool)</td></tr>
+<tr><td>CPU 穩定功耗</td><td>~19 W</td><td class="win">~35 W</td><td class="win">~30 W</td><td class="win">~30 W</td><td>~25 W</td><td class="win">~45 W</td><td class="win">~35 W</td></tr>
+<tr><td>滿載溫度</td><td class="lose">~85°C</td><td class="win">~75-80°C</td><td class="win">~72-78°C</td><td class="win">~72-78°C</td><td class="tie">~90-95°C</td><td class="win">~80-85°C</td><td class="win">~80-85°C</td></tr>
+<tr><td>風扇噪音</td><td class="lose">~75 dBA</td><td class="win">~45-52 dBA</td><td class="win">~42-48 dBA</td><td class="win">~42-48 dBA</td><td class="tie">~48-52 dBA</td><td class="win">~48-55 dBA</td><td class="win">~45-50 dBA</td></tr>
+<tr><td>散熱總評</td><td class="lose">老化降頻</td><td class="win">雙風扇+Lunar Lake=涼爽</td><td class="win">雙風扇+Lunar Lake=涼爽</td><td class="win">雙風扇+Lunar Lake=涼爽</td><td class="tie">單風扇偏熱</td><td class="win">IceCool 45W 不掉頻</td><td class="win">IceCool 穩定</td></tr>
 
 <tr class="spec-category"><td colspan="8">AI Agent / 本地 AI 推論</td></tr>
-<tr><td>Copilot+ PC</td><td class="lose">不支援</td><td class="win">支援 (40 TOPS)</td><td class="win">支援 (40 TOPS)</td><td class="win">支援 (40 TOPS)</td><td class="win">支援 (47 TOPS)</td><td class="lose">不支援 (11 TOPS)</td><td class="win">支援 (47 TOPS)</td></tr>
-<tr><td>NPU 世代</td><td>無</td><td class="win">AI Boost Gen2</td><td class="win">AI Boost Gen2</td><td class="win">AI Boost Gen2</td><td class="win">AI Boost Gen2</td><td class="tie">AI Boost Gen1</td><td class="win">AI Boost Gen2</td></tr>
-<tr><td>Ollama 最大模型</td><td class="lose">最多 7B</td><td>7B-13B (16G 限制)</td><td>7B-13B (16G 限制)</td><td class="win">最高 13B (32G)</td><td class="win">最高 13B (32G)</td><td>7B-13B (16G 限制)</td><td class="win">最高 13B (32G)</td></tr>
-<tr><td>本地 RAG</td><td class="lose">不建議</td><td class="tie">可輕度</td><td class="tie">可輕度</td><td class="win">適合 (32G+NPU)</td><td class="win">適合 (32G+NPU)</td><td class="tie">可輕度</td><td class="win">適合 (32G+NPU)</td></tr>
-<tr><td>AI 續航</td><td class="lose">~3-4 hr</td><td class="win">~10-12 hr</td><td class="win">~10-12 hr</td><td class="win">~10-12 hr</td><td class="win">~8-10 hr</td><td class="tie">~6-8 hr</td><td class="win">~10-12 hr</td></tr>
-<tr><td>AI 總結</td><td>—</td><td class="win">40 TOPS / 16G<br>夠用但有限</td><td class="win">40 TOPS / 16G<br>夠用但有限</td><td class="win">40 TOPS / 32G<br><span class="badge-best">降階 AI 最強</span></td><td class="win">47 TOPS / 32G<br><span class="badge-best">全規格 AI</span></td><td class="lose">11 TOPS / 16G<br>AI 弱項</td><td class="win">47 TOPS / 32G<br><span class="badge-best">全規格 AI</span></td></tr>
+<tr><td>Copilot+ PC</td><td class="lose">不支援</td><td class="win">支援 (47 TOPS)</td><td class="win">支援 (40 TOPS)</td><td class="win">支援 (40 TOPS)</td><td class="lose">不支援 (11 TOPS)</td><td class="win">支援 (47 TOPS)</td><td class="win">支援 (40 TOPS)</td></tr>
+<tr><td>NPU 世代</td><td>無</td><td class="win">AI Boost Gen2</td><td class="win">AI Boost Gen2</td><td class="win">AI Boost Gen2</td><td class="tie">AI Boost Gen1</td><td class="win">AI Boost Gen2</td><td class="win">AI Boost Gen2</td></tr>
+<tr><td>Ollama 最大模型</td><td class="lose">最多 7B</td><td class="win">最高 13B (32G)</td><td class="win">最高 13B (32G)</td><td>7B-13B (16G 限制)</td><td>7B-13B (16G 限制)</td><td class="win">最高 13B (32G)</td><td>7B-13B (16G 限制)</td></tr>
+<tr><td>本地 RAG</td><td class="lose">不建議</td><td class="win">適合 (32G+NPU)</td><td class="win">適合 (32G+NPU)</td><td class="tie">可輕度</td><td class="tie">可輕度</td><td class="win">適合 (32G+NPU)</td><td class="tie">可輕度</td></tr>
+<tr><td>AI 續航</td><td class="lose">~3-4 hr</td><td class="win">~10-12 hr</td><td class="win">~10-12 hr</td><td class="win">~10-12 hr</td><td class="tie">~6-8 hr</td><td class="win">~8-10 hr</td><td class="win">~10-12 hr</td></tr>
 
 <tr class="spec-category"><td colspan="8">機身與攜帶</td></tr>
-<tr><td>重量</td><td>~1.29 kg</td><td class="win">~1.24 kg</td><td class="win">~1.20 kg</td><td class="win">~1.24 kg</td><td class="win">~1.20 kg</td><td class="win">~1.22 kg</td><td class="win">~1.24 kg</td></tr>
-<tr><td>厚度</td><td>15.9 mm</td><td class="tie">15.95 mm</td><td class="win">13.9 mm</td><td class="tie">15.95 mm</td><td class="win">13.9 mm</td><td class="win">14.9 mm</td><td class="tie">15.95 mm</td></tr>
-<tr><td>電池</td><td>50 Wh</td><td class="tie">65 Wh</td><td class="tie">65 Wh</td><td class="tie">65 Wh</td><td class="tie">65 Wh</td><td class="win">75 Wh</td><td class="tie">65 Wh</td></tr>
-<tr><td>續航</td><td>~6-7 hr</td><td class="win">~14-18 hr</td><td class="win">~14-18 hr</td><td class="win">~14-18 hr</td><td class="win">~14-18 hr</td><td class="win">~12-14 hr</td><td class="win">~15-20 hr</td></tr>
+<tr><td>重量</td><td>~1.29 kg</td><td class="win">~1.24 kg</td><td class="win">~1.24 kg</td><td class="win">~1.24 kg</td><td class="win">~1.22 kg</td><td class="win">~1.20 kg</td><td class="win">~1.20 kg</td></tr>
+<tr><td>厚度</td><td>15.9 mm</td><td class="tie">15.95 mm</td><td class="tie">15.95 mm</td><td class="tie">15.95 mm</td><td class="win">14.9 mm</td><td class="win">13.9 mm</td><td class="win">13.9 mm</td></tr>
+<tr><td>電池</td><td>50 Wh</td><td class="tie">65 Wh</td><td class="tie">65 Wh</td><td class="tie">65 Wh</td><td class="win">75 Wh</td><td class="tie">65 Wh</td><td class="tie">65 Wh</td></tr>
+<tr><td>續航</td><td>~6-7 hr</td><td class="win">~15-20 hr</td><td class="win">~14-18 hr</td><td class="win">~14-18 hr</td><td class="win">~12-14 hr</td><td class="win">~14-18 hr</td><td class="win">~14-18 hr</td></tr>
 
 <tr class="spec-category"><td colspan="8">介面與連線</td></tr>
 <tr><td>Thunderbolt</td><td>TB4 x1</td><td class="win">TB4 x2</td><td class="win">TB4 x2</td><td class="win">TB4 x2</td><td class="win">TB4 x2</td><td class="win">TB4 x2</td><td class="win">TB4 x2</td></tr>
-<tr><td>USB-A</td><td>1</td><td class="win">2</td><td class="lose">0</td><td class="win">2</td><td class="lose">0</td><td>1</td><td class="win">2</td></tr>
+<tr><td>USB-A</td><td>1</td><td class="win">2</td><td class="win">2</td><td class="win">2</td><td>1</td><td class="lose">0</td><td class="lose">0</td></tr>
 <tr><td>HDMI</td><td>2.0b</td><td class="win">2.1</td><td class="win">2.1</td><td class="win">2.1</td><td class="win">2.1</td><td class="win">2.1</td><td class="win">2.1</td></tr>
-<tr><td>讀卡機</td><td>MicroSD</td><td class="win">MicroSD</td><td class="lose">無</td><td class="win">MicroSD</td><td class="lose">無</td><td class="win">MicroSD</td><td class="win">MicroSD</td></tr>
+<tr><td>讀卡機</td><td>MicroSD</td><td class="win">MicroSD</td><td class="win">MicroSD</td><td class="win">MicroSD</td><td class="win">MicroSD</td><td class="lose">無</td><td class="lose">無</td></tr>
 <tr><td>無線</td><td>Wi-Fi 6</td><td class="win">Wi-Fi 7</td><td class="win">Wi-Fi 7</td><td class="win">Wi-Fi 7</td><td class="win">Wi-Fi 7</td><td class="win">Wi-Fi 7</td><td class="win">Wi-Fi 7</td></tr>
 
 <tr class="spec-category"><td colspan="8">安全與保固</td></tr>
 <tr><td>生物辨識</td><td>指紋</td><td class="win">指紋+IR</td><td class="win">指紋+IR</td><td class="win">指紋+IR</td><td class="win">指紋+IR</td><td class="win">指紋+IR</td><td class="win">指紋+IR</td></tr>
 <tr><td>隱私鏡頭蓋</td><td>無</td><td class="win">有</td><td class="win">有</td><td class="win">有</td><td class="win">有</td><td class="win">有</td><td class="win">有</td></tr>
-<tr><td>保固</td><td>已過保</td><td class="win">2 年台灣</td><td class="win">2 年國際</td><td class="win">2 年台灣</td><td class="win">2 年國際</td><td class="win">2 年+完美保固</td><td class="win">2 年台灣</td></tr>
+<tr><td>保固</td><td>已過保</td><td class="win">2 年台灣</td><td class="win">2 年台灣</td><td class="win">2 年台灣</td><td class="win">2 年+完美保固</td><td class="win">2 年國際</td><td class="win">2 年國際</td></tr>
 
-<tr class="spec-category"><td colspan="8">價格光譜 — 每多花 $5K 能升級什麼？</td></tr>
-<tr><td>價格</td><td>~$8,000</td><td class="best-price">$30,900</td><td class="best-price">$32,999</td><td class="best-price">$33,900</td><td class="best-price">$37,999~$39,999</td><td class="best-price">$39,999</td><td class="best-price">$44,900</td></tr>
-<tr><td>與前一階差價</td><td>—</td><td>+$22,900<br>vs MSI</td><td>+$2,099<br>vs 542S</td><td>+$901<br>vs U5 Vivo</td><td>+$4,099<br>vs 50CQ</td><td>+$2,000<br>vs U7 Vivo</td><td>+$4,901<br>vs Zen U5</td></tr>
-<tr><td>多花錢升級了什麼</td><td>—</td><td>Lunar Lake<br>NPU 40 TOPS<br>AI 世代跳躍</td><td>OLED 螢幕<br>輕薄機身</td><td>8GB→32GB<br>多工升級</td><td>512GB→1TB<br>47 TOPS<br>OLED 螢幕</td><td>2.8K OLED<br>120Hz<br>75Wh 大電</td><td>32GB+1TB+OLED<br>47 TOPS<br>全規格頂</td></tr>
-<tr><td>升級划算度</td><td>—</td><td class="win">極划算<br><span class="badge-best">AI 世代升級</span></td><td class="tie">合理<br>OLED 代價</td><td class="win">極划算<br><span class="badge-best">RAM 加倍</span></td><td class="tie">合理<br>RAM/SSD/NPU 全升</td><td class="lose">不划算<br>AI 沒升 RAM 沒升</td><td class="tie">合理<br>全規格頂點</td></tr>
-<tr><td>實質總花費<br>(若需 DIY 補 RAM/SSD)</td><td>~$8,000</td><td>$33,900<br>+$3,000 補 16G</td><td>$35,999<br>+$3,000 補 16G</td><td>$33,900<br>已 32GB 免補</td><td>$37,999<br>已 32GB+1TB 免補</td><td>$42,999<br>+$3,000 補 16G</td><td>$44,900<br>已 32GB+1TB 免補</td></tr>
+<tr class="spec-category"><td colspan="8">價格光譜</td></tr>
+<tr><td>價格</td><td>~$8,000 二手</td><td class="best-price">$44,900</td><td class="best-price">$33,900</td><td class="best-price">$30,900</td><td class="best-price">$39,999</td><td class="best-price">$37,999~$39,999</td><td class="best-price">$32,999</td></tr>
+<tr><td>ACER 內部比較</td><td>—</td><td class="win">U7 旗艦<br>47T+32G+1TB+OLED</td><td class="win">U5 中階<br>40T+32G+512G+IPS</td><td class="tie">U5 入門<br>40T+16G+512G+IPS</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>ASUS 內部比較</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="tie">Meteor Lake<br>螢幕最頂但 AI 最弱</td><td class="win">U7 中階<br>47T+32G+1TB+OLED</td><td class="tie">U5 入門<br>40T+16G+512G+OLED</td></tr>
+<tr><td>品牌內升級 CP</td><td>—</td><td class="tie">50CQ→U7 多 $11K<br>得 OLED+15TOPS+512GB</td><td class="win">542S→50CQ 多 $3K<br><span class="badge-best">RAM 加倍超值</span></td><td class="lose">基準線</td><td class="lose">VivoU7→Zen U5 多 $2K<br>降級 AI 升螢幕?</td><td class="win">VivoU5→U7 多 $5K<br>全方面升級</td><td class="win">入門 OLED<br>最便宜方案</td></tr>
 
 <tr class="spec-category"><td colspan="8">網路評價 / 雷區 / 災情（PTT、Mobile01）</td></tr>
-<tr><td>PTT/Mobile01 總評</td><td class="lose">轉軸斷裂通病<br>已過保不建議</td><td class="win">正面：<br>$30K 有 Copilot+</td><td class="win">正面：<br>OLED+AI 雙得</td><td class="win">正面：<br>32GB 極罕見</td><td class="win">正面：<br>C/P 值高</td><td class="tie">中性偏正：<br>螢幕好但散熱隱憂</td><td class="win">正面：<br>全方位好評</td></tr>
-<tr><td>主要災情</td><td class="lose">轉軸斷裂<br>USB-C 脫落<br>主機板不開機</td><td class="tie">IPS 亮度偏低<br>~300 nits</td><td class="lose">無 USB-A<br>無 MicroSD</td><td class="tie">IPS 亮度偏低<br>~300 nits</td><td class="lose">無 USB-A<br>無 MicroSD</td><td class="lose">高階款證實<br>102°C 熱當<br>單風扇不足</td><td class="win">無重大災情<br>OLED 鏡面反光</td></tr>
-<tr><td>可靠度總結</td><td class="lose">不建議</td><td class="win">$30K 級距最穩</td><td class="win">OLED 超值<br>需接受無 USB-A</td><td class="win">降階版最推</td><td class="win">高階入門好選擇</td><td class="tie">螢幕頂但 C/P 差</td><td class="win">高階首選</td></tr>
+<tr><td>PTT/Mobile01 總評</td><td class="lose">轉軸斷裂通病<br>已過保不建議</td><td class="win">正面<br>全方位好評</td><td class="win">正面<br>32GB 極罕見</td><td class="win">正面<br>$30K 有 Copilot+</td><td class="tie">中性偏正<br>螢幕好但散熱隱憂</td><td class="win">正面<br>C/P 值高</td><td class="win">正面<br>OLED+AI 雙得</td></tr>
+<tr><td>主要災情</td><td class="lose">轉軸斷裂<br>USB-C 脫落</td><td class="win">OLED 鏡面反光<br>無重大災情</td><td class="tie">IPS 亮度偏低<br>~300 nits</td><td class="tie">IPS 亮度偏低<br>~300 nits</td><td class="lose">高階款 102°C 熱當<br>單風扇不足</td><td class="lose">無 USB-A<br>無 MicroSD</td><td class="lose">無 USB-A<br>無 MicroSD</td></tr>
+<tr><td>可靠度總結</td><td class="lose">不建議</td><td class="win">高階最穩</td><td class="win">降階最推</td><td class="win">入門最穩</td><td class="tie">螢幕頂但 C/P 差</td><td class="win">高階好選擇</td><td class="win">OLED 超值</td></tr>
 
 <tr class="spec-category"><td colspan="8">適用場景評分 (1-5星)</td></tr>
-<tr><td>Pr / CapCut / 達文西</td><td>2/5</td><td class="win">4/5</td><td class="win">4/5</td><td class="win">4/5</td><td class="win">5/5</td><td class="win">4/5</td><td class="win">5/5</td></tr>
-<tr><td>本地 LLM (Ollama)</td><td>1/5</td><td class="tie">3/5 (16G 限制)</td><td class="tie">3/5 (16G 限制)</td><td class="win">4/5 (32G+NPU)</td><td class="win">5/5 (32G+47T)</td><td>2/5 (11T+16G)</td><td class="win">5/5 (32G+47T)</td></tr>
-<tr><td>多開/保險系統</td><td>3/5</td><td class="tie">3/5 (16G 剛好)</td><td class="tie">3/5 (16G 剛好)</td><td class="win">5/5 (32G 充裕)</td><td class="win">5/5 (32G 充裕)</td><td class="tie">3/5 (16G 剛好)</td><td class="win">5/5 (32G 充裕)</td></tr>
-<tr><td>外景/攜帶</td><td>3/5</td><td class="win">5/5</td><td class="win">5/5</td><td class="win">5/5</td><td class="win">5/5</td><td class="win">4/5</td><td class="win">5/5</td></tr>
-<tr><td>外接雙螢幕</td><td>2/5</td><td class="win">5/5</td><td>3/5 (無 USB-A)</td><td class="win">5/5</td><td>3/5 (無 USB-A)</td><td class="win">4/5</td><td class="win">5/5</td></tr>
-<tr><td>AI Agent 推論</td><td>1/5</td><td class="tie">3/5 (40T+16G)</td><td class="tie">3/5 (40T+16G)</td><td class="win">4/5 (40T+32G)</td><td class="win">5/5 (47T+32G)</td><td>2/5 (11T+16G)</td><td class="win">5/5 (47T+32G)</td></tr>
+<tr><td>Pr / 達文西剪輯</td><td>2/5</td><td class="win">5/5</td><td class="win">4/5</td><td class="win">4/5</td><td class="win">4/5</td><td class="win">5/5</td><td class="win">4/5</td></tr>
+<tr><td>本地 LLM (Ollama)</td><td>1/5</td><td class="win">5/5 (47T+32G)</td><td class="win">4/5 (40T+32G)</td><td>3/5 (40T+16G)</td><td>2/5 (11T+16G)</td><td class="win">5/5 (47T+32G)</td><td>3/5 (40T+16G)</td></tr>
+<tr><td>多開/保險系統</td><td>3/5</td><td class="win">5/5 (32G)</td><td class="win">5/5 (32G)</td><td>3/5 (16G)</td><td>3/5 (16G)</td><td class="win">5/5 (32G)</td><td>3/5 (16G)</td></tr>
+<tr><td>外景/攜帶</td><td>3/5</td><td class="win">5/5</td><td class="win">5/5</td><td class="win">5/5</td><td class="win">4/5</td><td class="win">5/5</td><td class="win">5/5</td></tr>
+<tr><td>外接雙螢幕</td><td>2/5</td><td class="win">5/5</td><td class="win">5/5</td><td class="win">5/5</td><td>4/5</td><td>3/5 (無 USB-A)</td><td>3/5 (無 USB-A)</td></tr>
+<tr><td>AI Agent 推論</td><td>1/5</td><td class="win">5/5 (47T+32G)</td><td class="win">4/5 (40T+32G)</td><td>3/5 (40T+16G)</td><td>2/5 (11T+16G)</td><td class="win">5/5 (47T+32G)</td><td>3/5 (40T+16G)</td></tr>
 </tbody>
 </table>
 </div>
 
 <div class="footer-note">
-<strong>快速決策：這 7 台的價格光譜，你的甜蜜點在哪？</strong>
+<strong>快速決策：你的甜蜜點在哪？</strong>
 <ul>
-<li><strong>🥇 如果預算 $33K → ACER Swift Go 14 SFG14-75-50CQ $33,900</strong>：$35K 以下唯一 32GB + Copilot+ PC 40 TOPS + 雙風扇 + 18hr 續航 + 雙 USB-A。跟高階 Swift Go ($44,900) 比只差 OLED 螢幕和少 7 TOPS NPU，但省了 $11,000。IPS 120Hz 霧面螢幕反而比 OLED 60Hz 更流暢。這台是降階版的真正王者。</li>
-<li><strong>🥈 如果預算 $38K → ASUS Vivobook S 14 OLED S5406SA Ultra7 $37,999</strong>：比 Ultra5 版多 $5,000，但你拿到 32GB→1TB→OLED→47 TOPS 全面升級。跟 $44,900 的 Swift Go 比只差 USB-A 和讀卡機，但省了 $7,000。如果你不需要傳統 USB 裝置，這台是甜蜜點。</li>
-<li><strong>🥉 如果極限預算 $31K → ACER Swift Go 14 SFG14-75-542S $30,900</strong>：最低價 Copilot+ PC 入場券。但 16GB 在 2026 年已偏緊，未來不可升級，適合純雲端工作者。</li>
-<li><strong>⚠️ 最不推：ASUS Zenbook 14 OLED UX3405CA Ultra5 $39,999</strong>：$40K 價位但只有 11 TOPS NPU、16GB RAM、512GB SSD。補 RAM/SSD 後實質破 $43K。同樣花 $38K~$40K，Vivobook S14 Ultra7 ($37,999) 全面碾壓；加 $5,000 上 Swift Go Ultra7 ($44,999) 規格全面頂。</li>
+<li><strong>ACER 陣營</strong><br>
+　• <strong>$44,900 Swift Go U7</strong> — 全規格頂：47 TOPS + 32GB + 1TB + OLED + 雙 USB-A + 讀卡機<br>
+　• <strong>$33,900 Swift Go 50CQ (🥇 降階王者)</strong> — $35K 以下唯一 32GB + Copilot+ PC + 雙風扇 + 18hr。跟 U7 比只差 OLED 和 7 TOPS，省 $11K。<br>
+　• <strong>$30,900 Swift Go 542S</strong> — 最低價 Copilot+ PC 入場券。但 16GB 偏緊。</li>
+<li><strong>ASUS 陣營</strong><br>
+　• <strong>$39,999 Zenbook 14 U5 — ⚠️ 最不推</strong>：$40K 但 11 TOPS + 16GB + 512GB。不要被 2.8K OLED 迷惑。<br>
+　• <strong>$37,999 Vivobook S14 U7 (🥈 進階甜蜜點)</strong> — 比 U5 版多 $5K 拿到 32GB + 1TB + 47 TOPS + OLED，升級到位。<br>
+　• <strong>$32,999 Vivobook S14 U5</strong> — 最便宜 OLED + Lunar Lake。缺點：無 USB-A、16GB 焊死。</li>
 </ul>
 
 <div class="key-takeaway">
 <strong>一句話總結</strong><br>
-➡ <strong>$33,900 ACER 50CQ</strong> 是降階版王者：32GB + Copilot+ PC + 雙風扇 + 18hr 續航 — 只犧牲 OLED 和 7 TOPS 就省下 $11,000。<br>
-➡ <strong>$37,999 ASUS Vivobook Ultra7</strong> 是進階甜蜜點：比 50CQ 多 $4,000 但拿到 47 TOPS + OLED + 1TB — 適合需要螢幕品質的使用者。<br>
-➡ <strong>$44,900 ACER Swift Go Ultra7</strong> 是最強完整體：32GB + 47 TOPS + OLED + 1TB — 只比 $37,999 多 $7,000 就有雙 USB-A + 讀卡機，一次到位。<br>
-➡ <strong>$39,999 Zenbook UX3405CA Ultra5</strong> 是陷阱：外表高級但內在 AI 最弱、RAM 最小、實質總花費破 $43K — 不要被 2.8K OLED 迷惑。
+➡ ACER 陣營：<strong>50CQ ($33,900) 是降階王</strong>，U7 ($44,900) 是最強完整體。<br>
+➡ ASUS 陣營：<strong>Vivobook U7 ($37,999) 是甜蜜點</strong>，Zenbook U5 ($39,999) 是陷阱。<br>
+➡ 先決定要 ACER（雙 USB-A + 讀卡機）還是 ASUS（OLED + Dolby Vision），再看預算選階。
 </div>
 
-<p><strong>買機動線</strong>：<strong>燦坤/原價屋實體門市</strong>特別比較：① SFG14-75-50CQ 的 IPS 120Hz 霧面 vs S5406SA 的 OLED 60Hz 鏡面 — 滑網頁時 120Hz 的流暢感 vs OLED 黑色的深邃感，哪個對你更重要。② 確認 Ultra7 版的現貨和特仕價格。</p>
+<p><strong>買機動線</strong>：<strong>燦坤/原價屋</strong>摸實機比較：ACER 的 IPS 120Hz 霧面 vs ASUS 的 OLED 60Hz 鏡面，現場看哪個順眼。</p>
 </div>
 </div>
 </body>
