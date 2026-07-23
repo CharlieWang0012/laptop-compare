@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACER Swift Go 14 — SFG14-75-50CQ vs SFG14-75-76T1 終極對決</title>
+<style>
+:root {
+  --primary: #1e3a5f;
+  --accent: #e8a838;
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #2d2d2d;
+  --text-muted: #666;
+  --border: #e0e0e0;
+  --win: #2e7d32;
+  --tie: #f57c00;
+  --intel-blue: #0071c5;
+  --acer-green: #00a651;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Microsoft JhengHei", "PingFang TC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+header { text-align: center; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 3px solid var(--accent); }
+header h1 { font-size: 1.6rem; color: var(--primary); margin-bottom: 8px; }
+header h1 span { color: var(--acer-green); }
+header p { color: var(--text-muted); font-size: 1rem; }
+.meta { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-top: 12px; font-size: 0.85rem; color: var(--text-muted); }
+.nav-links { text-align: center; margin-bottom: 20px; }
+.nav-links a { color: var(--intel-blue); text-decoration: none; margin: 0 12px; font-size: 0.9rem; }
+.nav-links a:hover { text-decoration: underline; }
+.table-wrap { overflow-x: auto; background: var(--card); border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); border: 1px solid var(--border); margin-bottom: 24px; }
+table { width: 100%; border-collapse: collapse; min-width: 700px; }
+thead { background: var(--primary); color: #fff; }
+th, td { padding: 12px 16px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+th { font-weight: 600; white-space: nowrap; position: sticky; top: 0; z-index: 1; }
+thead th { font-size: 1rem; }
+thead th small { font-weight: 400; font-size: 0.8rem; opacity: 0.85; display: block; margin-top: 2px; }
+tbody tr:nth-child(even) { background: #fafafa; }
+tbody tr:hover { background: #fff8e1; }
+.brand-header { text-align: center; }
+.brand-header .brand { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: block; }
+.brand-header .model { font-size: 1rem; color: var(--primary); font-weight: 700; display: block; margin: 4px 0; }
+.brand-header .price { font-size: 1.2rem; font-weight: 700; color: var(--acer-green); display: block; margin-top: 6px; }
+.brand-header .price small { font-size: 0.75rem; color: var(--text-muted); font-weight: 400; }
+.brand-header .tag { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; margin-top: 6px; }
+.tag-king { background: #e8f5e9; color: var(--win); }
+.tag-value { background: #fff3e0; color: var(--tie); }
+.spec-category { background: #e8edf2; font-weight: 700; color: var(--primary); }
+.spec-category td { padding: 10px 16px; font-size: 0.95rem; }
+.win { color: var(--win); font-weight: 700; }
+.tie { color: var(--tie); font-weight: 700; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; margin-left: 6px; white-space: nowrap; }
+.badge-best { background: #e8f5e9; color: var(--win); }
+.badge-good { background: #fff3e0; color: var(--tie); }
+.badge-premium { background: #e3f2fd; color: var(--intel-blue); }
+.badge-note { background: #fce4ec; color: #c62828; }
+.price-row td { font-size: 1rem; font-weight: 700; color: var(--primary); }
+.price-row .best-price { color: var(--acer-green); }
+.summary-box { background: #fff3e0; border-radius: 12px; padding: 20px; border-left: 4px solid var(--accent); margin-top: 24px; }
+.summary-box h3 { color: var(--primary); margin-bottom: 12px; }
+.summary-box .cols { display: flex; gap: 24px; flex-wrap: wrap; }
+.summary-box .col { flex: 1; min-width: 240px; background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.summary-box .col h4 { color: var(--acer-green); margin-bottom: 8px; font-size: 1.05rem; }
+.summary-box .col h4:last-child { color: var(--primary); }
+.summary-box .col ul { margin: 8px 0 0 18px; font-size: 0.9rem; }
+.summary-box .col li { margin: 4px 0; }
+@media (max-width: 768px) {
+  header h1 { font-size: 1.3rem; }
+  th, td { padding: 10px 12px; font-size: 0.85rem; }
+  .summary-box .cols { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="nav-links">
+  <a href="../">&#8592; 主比較表（$45K~$50K）</a>
+  <a href="../budget/">&#8592; 價格光譜七款</a>
+  <a href="../msi-vs-acer/">&#8592; MSI vs ACER</a>
+</div>
+
+<header>
+  <h1>ACER Swift Go 14 — <span>50CQ 降階王者</span> vs <span>76T1 全能旗艦</span></h1>
+  <p>U5-228V vs U7-258V｜32GB 共規｜IPS vs OLED｜完整通路比價</p>
+  <div class="meta">
+    <span>更新：2026-07-23</span>
+    <span>用途：AI Agent + 剪輯 + 保險多工 + 攜帶</span>
+    <span>終極二選一</span>
+  </div>
+</header>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+  <th style="width: 160px;">比較項目</th>
+  <th class="brand-header" style="width: 45%;">
+    <span class="brand">ACER <span class="tag tag-value">降階王者</span></span>
+    <span class="model">Swift Go 14 SFG14-75-50CQ</span>
+    <span class="price">$33,000~$34,900 <small>（蝦皮最低）</small></span>
+  </th>
+  <th class="brand-header" style="width: 45%;">
+    <span class="brand">ACER <span class="tag tag-king">全能旗艦</span></span>
+    <span class="model">Swift Go 14 SFG14-75-76T1</span>
+    <span class="price">$43,605~$45,900 <small>（Yahoo最低）</small></span>
+  </th>
+</tr>
+</thead>
+<tbody>
+
+<tr class="spec-category"><td colspan="3">一、各通路即時比價</td></tr>
+<tr><td><strong>PChome 24h</strong></td><td>$34,900</td><td>$45,900</td></tr>
+<tr><td><strong>momo購物網</strong></td><td>$33,900</td><td>$45,900（可用折價券）</td></tr>
+<tr><td><strong>蝦皮購物</strong></td><td class="win">$33,000 ⭐全網最低</td><td>—</td></tr>
+<tr><td><strong>蝦皮商城</strong></td><td>—</td><td>$45,900（原價屋/旗艦店/直營）</td></tr>
+<tr><td><strong>酷澎 Coupang</strong></td><td class="lose">無販售</td><td>$45,800~$46,900</td></tr>
+<tr><td><strong>Yahoo購物中心</strong></td><td>$33,300（拍賣）</td><td class="win">$43,605 ⭐全網最低（95折）</td></tr>
+<tr><td><strong>myfone網路門市</strong></td><td>—</td><td>$43,605（同Yahoo低價）</td></tr>
+<tr><td><strong>驊哥電腦</strong></td><td>$31,900 起（可客製）</td><td>—</td></tr>
+<tr><td><strong>燦坤線上</strong></td><td>—</td><td>$45,900（8期0利率）</td></tr>
+<tr><td><strong>東森購物</strong></td><td>—</td><td>$45,900</td></tr>
+
+<tr class="spec-category"><td colspan="3">二、處理器與 AI 運算</td></tr>
+<tr><td>CPU 型號</td><td>Intel Core Ultra 5 228V</td><td class="win">Intel Core Ultra 7 258V</td></tr>
+<tr><td>架構／製程</td><td>Lunar Lake / TSMC 3nm</td><td>Lunar Lake / TSMC 3nm</td></tr>
+<tr><td>核心／執行緒</td><td>8C (4P+4LPE) / 8T</td><td>8C (4P+4LPE) / 8T</td></tr>
+<tr><td>最高時脈</td><td>4.5 GHz</td><td class="win">4.8 GHz</td></tr>
+<tr><td>Smart Cache</td><td>8 MB</td><td class="win">12 MB</td></tr>
+<tr><td>NPU AI 算力</td><td class="win">40 TOPS <span class="badge badge-best">Copilot+ 過檻</span></td><td class="win">47 TOPS <span class="badge badge-best">更高餘裕</span></td></tr>
+<tr><td>NPU 世代</td><td>Intel AI Boost Gen2</td><td>Intel AI Boost Gen2</td></tr>
+<tr><td>Copilot+ PC</td><td class="win">支援</td><td class="win">支援</td></tr>
+
+<tr class="spec-category"><td colspan="3">三、顯示核心與創作效能</td></tr>
+<tr><td>內顯型號</td><td>Intel Arc 130V (Xe2, 7 cores)</td><td class="win">Intel Arc 140V (Xe2, 8 cores)</td></tr>
+<tr><td>3DMark Time Spy</td><td>~3,800</td><td class="win">~4,200</td></tr>
+<tr><td>等同獨顯等級</td><td>≈ GTX 1650</td><td class="win">≈ RTX 3050</td></tr>
+<tr><td>AV1 編解碼</td><td class="win">支援（雙編碼器）</td><td class="win">支援（雙編碼器）</td></tr>
+<tr><td>DaVinci／Pr 加速</td><td>Quick Sync + Arc 硬編碼</td><td>Quick Sync + Arc 硬編碼</td></tr>
+
+<tr class="spec-category"><td colspan="3">四、記憶體與儲存</td></tr>
+<tr><td>記憶體</td><td class="win">32GB LPDDR5x-8533</td><td class="win">32GB LPDDR5x-8533</td></tr>
+<tr><td>SSD</td><td>512GB PCIe 4.0</td><td class="win">1TB PCIe 4.0 <span class="badge badge-best">多一倍</span></td></tr>
+<tr><td>SSD 擴充</td><td class="win">M.2 2280 x1（可換）</td><td class="win">M.2 2280 x1（可換）</td></tr>
+
+<tr class="spec-category"><td colspan="3">五、螢幕素質</td></tr>
+<tr><td>面板</td><td><strong>IPS 霧面</strong> ⭐</td><td><strong>OLED 鏡面</strong></td></tr>
+<tr><td>解析度</td><td>WUXGA 1920x1200</td><td>WUXGA 1920x1200</td></tr>
+<tr><td>更新率</td><td class="win">120 Hz ⭐</td><td>60 Hz</td></tr>
+<tr><td>色域</td><td>sRGB 100%</td><td class="win">DCI-P3 100%</td></tr>
+<tr><td>亮度</td><td>350 nits</td><td class="win">400 nits</td></tr>
+<tr><td>對比度</td><td>1000:1</td><td class="win">∞（OLED）</td></tr>
+<tr><td>HDR 認證</td><td>無</td><td class="win">VESA HDR True Black 500</td></tr>
+<tr><td>強光使用</td><td class="win">佳（霧面不反光）</td><td class="lose">差（鏡面反光明顯）</td></tr>
+<tr><td>螢幕總評</td><td>長時間文書王者：不傷眼、120Hz 順滑</td><td>觀影／調色王者：色彩鮮豔、對比無窮</td></tr>
+
+<tr class="spec-category"><td colspan="3">六、散熱設計</td></tr>
+<tr><td>散熱系統</td><td>雙風扇 + 雙熱導管直出</td><td>雙風扇 + 雙熱導管直出</td></tr>
+<tr><td>風扇數量</td><td class="win">2</td><td class="win">2</td></tr>
+<tr><td>CPU 穩定功耗 (PL1)</td><td>~28 W</td><td class="win">~35 W</td></tr>
+<tr><td>CPU 滿載溫度</td><td class="win">~70-75°C（U5 更低功耗）</td><td>~75-80°C</td></tr>
+<tr><td>風扇噪音（滿載）</td><td class="win">~42-48 dBA</td><td>~45-52 dBA</td></tr>
+<tr><td>散熱總評</td><td class="win">原生涼爽，U5 功耗低更涼</td><td>效能強，散熱同級</td></tr>
+
+<tr class="spec-category"><td colspan="3">七、AI Agent／本地推論</td></tr>
+<tr><td>Ollama 最大模型</td><td class="win">最高 13B（32GB RAM）</td><td class="win">最高 13B（32GB RAM）</td></tr>
+<tr><td>GPU 共享記憶體</td><td>Arc 130V 最高 8GB</td><td class="win">Arc 140V 最高 8GB</td></tr>
+<tr><td>本地 RAG／向量資料庫</td><td class="win">適合（32GB RAM）</td><td class="win">適合（32GB RAM）</td></tr>
+<tr><td>連續推論續航</td><td class="win">~12-14 hr（U5 更低功耗）</td><td>~10-12 hr</td></tr>
+<tr><td>AI Agent 評級</td><td>⭐⭐⭐⭐ 夠用</td><td class="win">⭐⭐⭐⭐⭐ 更多餘裕</td></tr>
+
+<tr class="spec-category"><td colspan="3">八、機身與攜帶</td></tr>
+<tr><td>重量</td><td class="win">1.24 kg</td><td class="win">1.24 kg</td></tr>
+<tr><td>厚度</td><td>9.7~15.95 mm</td><td>9.7~15.95 mm</td></tr>
+<tr><td>材質</td><td>全機鋁合金</td><td>全機鋁合金</td></tr>
+<tr><td>電池</td><td class="win">65 Wh（續航~18-22hr）</td><td>65 Wh（續航~15-20hr）</td></tr>
+<tr><td>軍規認證</td><td class="win">有</td><td class="win">有</td></tr>
+
+<tr class="spec-category"><td colspan="3">九、介面與連線</td></tr>
+<tr><td>Thunderbolt 4</td><td class="win">x2（USB4 40Gbps）</td><td class="win">x2（USB4 40Gbps）</td></tr>
+<tr><td>USB-A</td><td class="win">x2（USB 3.2 Gen1）</td><td class="win">x2（USB 3.2 Gen1）</td></tr>
+<tr><td>HDMI</td><td class="win">HDMI 2.1</td><td class="win">HDMI 2.1</td></tr>
+<tr><td>讀卡機</td><td class="win">MicroSD</td><td class="win">MicroSD</td></tr>
+<tr><td>Wi-Fi／藍牙</td><td class="win">Wi-Fi 7 / BT 5.4</td><td class="win">Wi-Fi 7 / BT 5.4</td></tr>
+
+<tr class="spec-category"><td colspan="3">十、安全與保固</td></tr>
+<tr><td>IR 人臉辨識</td><td class="win">有（FHD IR）</td><td class="win">有（FHD IR）</td></tr>
+<tr><td>隱私鏡頭蓋</td><td class="win">實體物理蓋</td><td class="win">實體物理蓋</td></tr>
+<tr><td>作業系統</td><td>Windows 11 Home</td><td>Windows 11 Home</td></tr>
+<tr><td>保固</td><td>台灣 2 年</td><td>台灣 2 年</td></tr>
+
+<tr class="spec-category"><td colspan="3">十一、適用場景評分（1~5⭐）</td></tr>
+<tr><td>Pr／CapCut／達文西剪輯</td><td class="win">5/5</td><td class="win">5/5</td></tr>
+<tr><td>本地 LLM（Ollama）</td><td>4/5</td><td class="win">5/5</td></tr>
+<tr><td>多開瀏覽器／Office／保險系統</td><td class="win">5/5</td><td class="win">5/5</td></tr>
+<tr><td>外景拍攝／攜帶</td><td class="win">5/5（續航更長）</td><td>5/5</td></tr>
+<tr><td>外接雙螢幕</td><td class="win">5/5</td><td class="win">5/5</td></tr>
+<tr><td>AI Agent／本地推論</td><td>4/5</td><td class="win">5/5</td></tr>
+<tr><td>強光下工作</td><td class="win">5/5 ⭐ IPS 霧面完勝</td><td>3/5</td></tr>
+<tr><td>觀影／照片調色</td><td>3/5</td><td class="win">5/5 ⭐ OLED 完勝</td></tr>
+<tr><td>CP 值</td><td class="win">5/5 ⭐ $33,000</td><td>4/5</td></tr>
+
+</tbody>
+</table>
+</div>
+
+<div class="summary-box">
+<h3>終極二選一 — 怎麼買？</h3>
+<div class="cols">
+<div class="col">
+<h4>選 50CQ（$33,000）</h4>
+<ul>
+<li>預算省 $10,000+，可升級 2TB SSD 還有剩</li>
+<li>長時間文書／強光工作：IPS 霧面不反光、120Hz 平滑</li>
+<li>續航更長：U5 功耗更低，實測多 2-3hr</li>
+<li>40 TOPS 已過 Copilot+ 門檻</li>
+<li><strong>蝦皮 $33,000 入手</strong></li>
+</ul>
+</div>
+<div class="col">
+<h4>選 76T1（$43,605）</h4>
+<ul>
+<li>AI Agent 為核心任務：47 TOPS 多 17.5% 算力</li>
+<li>OLED 創作者螢幕：色域廣、對比無窮</li>
+<li>1TB 內建到位，免升級</li>
+<li>預算可到 $45K 的優先選擇</li>
+<li><strong>Yahoo $43,605（95折）入手</strong></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
